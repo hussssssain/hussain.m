@@ -1,0 +1,172 @@
+body {
+  box-sizing: border-box;
+  background: white;
+  font-family: 'Squada One', cursive;
+  margin: 0;
+  padding: 0;
+  color: #f2f2f2;
+}
+
+.general-container {
+  border-radius: 20px;
+}
+
+.part-holders {
+  margin: 70px 50px;
+  border-radius: 20px;
+  display: block;
+  text-align: left;
+
+}
+
+.part-holders p {
+  width: 80%;
+  font-size: 12px;
+  line-height: 17px;
+  padding-right: 10px;
+  //padding-left: 44px;
+  text-align: left;
+
+}
+
+.first-part {
+  background: #ffa500;
+  padding: 50px 10px 20px 25px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.second-part {
+  background: #055f7c;
+  padding: 50px 10px 20px 25px;
+}
+
+.last-part {
+  background: #006600;
+  padding: 50px 20px 20px 25px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.end-btn {
+  margin-top: 35px;
+  background: white;
+  color: black;
+  padding: 1px 1px;
+  border-radius: 40px;
+  margin-right: 200px;
+  width: 30%;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+  //چیکا کنم رنگ کلش تو قسمت هاور عوض شه ؟ نه فقط ی قسمتی ازش
+}
+
+.one {
+  color: #ffa500;
+  background: white;
+}
+
+.two {
+  color: #055f7c;
+  background: white;
+}
+
+.three {
+  color: #006600;
+  background: white;
+}
+
+.one:hover {
+  background: #ffa500;
+  border: 2px solid white;
+  color: white;
+  background-size: 10px;
+  border-radius: 30px;
+}
+
+.two:hover {
+  background: #055f7c;
+  border: 2px solid white;
+  color: white;
+  border-radius: 30px;
+}
+
+.three:hover {
+  background: #006600;
+  border: 1px solid white;
+  color: white;
+  border-radius: 30px;
+}
+
+@media only screen and (min-width: 850px) {
+  .general-container {
+    width: 850px;
+    border-radius: 10px;
+    padding-right: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .part-holders {
+    display: flex;
+    margin-right: 50px;
+  }
+  .first-part {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+  }
+  .last-part {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+  }
+  .end-btn {
+    margin-bottom: 50px;
+    transform: translateY(30px);
+  }
+  .special {
+    transform: translateY(15px);
+  }
+}
+
+@media only screen  and (min-width: 900px) {
+  .general-container {
+    padding-left: 40px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen  and (min-width: 1000px) {
+
+  .general-container {
+    padding-left: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .special {
+    transform: translateY(32px);
+  }
+}
+
+@media only screen  and (min-width: 1100px) {
+
+  .general-container {
+    width: 1100px;
+    padding-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen  and (min-width: 1250px) {
+
+  .general-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1250px;
+  }
+}
